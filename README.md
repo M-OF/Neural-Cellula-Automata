@@ -38,7 +38,7 @@ NEURAL_CA/
 The model learns to grow the target pattern from a single seed 
 cell over ~64-96 update steps, trained with backpropagation through time.
 
-![growth](outputs/growth.gif)
+![growth](output/growth.gif)
 
 - Grid size: 40x40
 - Final loss: ~0.009
@@ -49,8 +49,6 @@ stages, training on them, and feeding outputs back into the pool — the
 model learns to treat the target pattern as a stable attractor rather 
 than a transient growth target.
 
-![persistence](outputs/persistence.gif)
-
 The pattern remains stable for over 100 steps before gradual 
 degradation, an improvement over Experiment 1, where degradation begins 
 almost immediately after the initial growth phase.
@@ -60,7 +58,7 @@ Extending the pool training, random circular regions of well-formed
 samples are damaged each iteration, training the model to repair local 
 damage using only its learned update rule.
 
-![regrowth](outputs/regrowth.gif)
+![regrowth](output/regrowth.gif)
 
 ## Running
 
