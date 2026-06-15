@@ -72,8 +72,16 @@ bash scripts/build_growth_video.sh
 
 ## Targets
 
-Three pixel-art targets were used: Abra, Gengar, and Quadri (all custom 
-or fan-made sprites resized to grid dimensions).
+Three pixel-art targets were used: Abra, Gengar, and four-leaf clover.
+
+## Disclaimer
+
+The pixel-art target images (Abra, Gengar) are Pokémon properties 
+owned by Nintendo/Game Freak/The Pokémon Company. They are used here 
+solely for educational/research purposes to reproduce the experiments 
+from the referenced paper, with no claim of ownership or commercial intent.
+
+Same goes for the four-leaf clover rights.
 
 ## References
 
