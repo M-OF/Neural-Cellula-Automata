@@ -40,7 +40,7 @@ cell over ~64-96 update steps, trained with backpropagation through time.
 
 ![growth](output/growth.gif)
 
-- Grid size: 40x40
+- Grid size: 64x64
 - Final loss: ~0.009
 
 ### 2. Persistence
