@@ -6,18 +6,6 @@ A PyTorch implementation of ["Growing Neural Cellular Automata"](https://distill
 
 Each cell in a grid holds a 16-dimensional state vector: RGB color, an alpha ("alive") channel, and 12 hidden channels. At every step, each cell perceives its neighborhood via Sobel filters and updates its state through a small shared neural network. The system learns to self-organize into a target image.
 
-## Repository Structure
-
-\```
-NEURAL_CA/
-├── img/                                  # Target images
-├── notebooks/
-│   └── Neural_cellular_automata.ipynb
-├── scripts/
-│   └── ...                               # Stitches frames into video with ffmpeg
-├── outputs/                              # Generated frames and videos
-└── README.md
-\```
 
 ## Experiments
 
