@@ -12,25 +12,6 @@ perceives its neighborhood via Sobel filters and updates its
 state through a small shared neural network. 
 The system learns to self-organize into a target image.
 
-## Repository Structure
-NEURAL_CA/
-
-├── img/                          # Target images
-
-│   
-
-
-├── notebooks/
-
-│   └── Neural_cellular_automata.ipynb
-
-├── scripts/
-
-│   └── ... # Stitches frames into video with ffmpeg
-
-├── outputs/ # Generated frames and videos
-
-└── README.md
 
 ## Experiments
 
